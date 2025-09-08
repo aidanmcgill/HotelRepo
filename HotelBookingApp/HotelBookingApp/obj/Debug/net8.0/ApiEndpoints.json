@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "GetBooking",
+    "RelativePath": "api/Hotel/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "GetHotels",
     "RelativePath": "api/Hotel/{name}",
     "HttpMethod": "GET",

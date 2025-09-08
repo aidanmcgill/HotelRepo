@@ -41,5 +41,30 @@ namespace HotelBookingApp.Controllers
             return Ok(hotelDto);
            
         }
+
+
+        [HttpGet]
+        [Route("{id:Guid}")]
+        public async Task<IActionResult> GetBooking([FromRoute] Guid id)
+        {
+            var bookingDomain = await hotelRepository.GetBookingAsync(id);
+
+            if (bookingDomain == null)
+            {
+                return NotFound();
+            }
+
+            var hotelDto = new BookingDto
+            {
+                Hotel = bookingDomain.Hotel,
+                CheckInDate = bookingDomain.CheckInDate,
+                CheckOutDate = bookingDomain.CheckOutDate,
+                RoomId = bookingDomain.RoomId,
+                NumberOfGuests = bookingDomain.NumberOfGuests,
+                NameOnBooking = bookingDomain.NameOnBooking,
+            };
+
+            return Ok(hotelDto);
+        }
     }
 }
