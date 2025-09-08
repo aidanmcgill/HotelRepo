@@ -93,8 +93,7 @@ namespace HotelBookingApp.Controllers
                 NameOnBooking = BookingDomain.NameOnBooking,
                 NumberOfGuests = BookingDomain.NumberOfGuests,
             };
-
-            return Ok(BookingDto);
+            return CreatedAtAction(nameof(GetBooking), new { id = BookingDomain.Id }, BookingDto);
         }
     }
 }
