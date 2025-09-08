@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "GetHotels",
+    "RelativePath": "api/Hotel/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelBookingApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -1,4 +1,5 @@
 using HotelBookingApp.Data;
+using HotelBookingApp.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,9 @@ builder.Services.AddDbContext<HotelBookingDbContext>(options => options.UseSqlSe
     builder.Configuration.GetConnectionString("HotelBookingConnectionString")
     )
 );
+
+
+builder.Services.AddScoped<IHotelRepository, SQLHotelRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

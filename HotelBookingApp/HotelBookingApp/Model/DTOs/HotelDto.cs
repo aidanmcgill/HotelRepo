@@ -1,9 +1,7 @@
-﻿namespace HotelBookingApp.Model.Domain
+﻿namespace HotelBookingApp.Model.DTOs
 {
-    public class Hotel
+    public class HotelDto
     {
-        public Guid Id { get; set; }
-
         public string Name { get; set; }
 
         public int NumberOfSingleRooms { get; set; }
