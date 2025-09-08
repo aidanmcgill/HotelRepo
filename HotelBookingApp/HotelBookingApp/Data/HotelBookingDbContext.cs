@@ -11,5 +11,6 @@ namespace HotelBookingApp.Data
         }
 
         public DbSet<Hotel> Hotels { get; set; }
+        public DbSet<Booking> Bookings {  get; set; }
     }
 }

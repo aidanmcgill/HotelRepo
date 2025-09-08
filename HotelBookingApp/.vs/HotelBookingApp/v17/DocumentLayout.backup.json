@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\migrations\\hotelbookingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\migrations\\hotelbookingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\model\\domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\model\\domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,14 +59,6 @@
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\hotelbookingapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\data\\hotelbookingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\migrations\\hotelbookingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\migrations\\hotelbookingdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\migrations\\20250908161937_init migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\migrations\\20250908161937_init migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -58,24 +70,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SQLHotelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
-              "RelativeDocumentMoniker": "HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
-              "RelativeToolTip": "HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "20250908182839_Add Booking Migration 2.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs",
+              "RelativeToolTip": "HotelBookingApp\\Migrations\\20250908182839_Add Booking Migration 2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T16:51:22.005Z",
+              "WhenOpened": "2025-09-08T18:28:39.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IHotelRepository.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\IHotelRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Repositories\\IHotelRepository.cs",
@@ -88,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Program.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Program.cs",
@@ -101,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "20250908161937_init Migration.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908161937_init Migration.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Migrations\\20250908161937_init Migration.cs",
@@ -114,20 +126,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "HotelController.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs*",
-              "RelativeToolTip": "HotelBookingApp\\Controllers\\HotelController.cs*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAhwCMAAABGAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "HotelBookingApp\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAhwCMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-08T14:53:43.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HotelBookingDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
+              "RelativeToolTip": "HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T16:20:11.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HotelBookingDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Data\\HotelBookingDbContext.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Data\\HotelBookingDbContext.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Data\\HotelBookingDbContext.cs",
+              "RelativeToolTip": "HotelBookingApp\\Data\\HotelBookingDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:40:50.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "RelativeToolTip": "HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:16:33.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250908182240_Add Booking Migration.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs",
+              "RelativeToolTip": "HotelBookingApp\\Migrations\\20250908182240_Add Booking Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T18:22:40.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SQLHotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
+              "RelativeToolTip": "HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T16:51:22.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\WeatherForecastController.cs",
@@ -140,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\appsettings.json",
               "RelativeDocumentMoniker": "HotelBookingApp\\appsettings.json",
@@ -153,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "HotelDto.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\DTOs\\HotelDto.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Model\\DTOs\\HotelDto.cs",
@@ -166,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Hotel.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Model\\Domain\\Hotel.cs",
@@ -179,33 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HotelBookingDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
-              "RelativeToolTip": "HotelBookingApp\\Migrations\\HotelBookingDbContextModelSnapshot.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T16:20:11.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HotelBookingDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Data\\HotelBookingDbContext.cs",
-              "RelativeDocumentMoniker": "HotelBookingApp\\Data\\HotelBookingDbContext.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Data\\HotelBookingDbContext.cs",
-              "RelativeToolTip": "HotelBookingApp\\Data\\HotelBookingDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T15:40:50.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "HotelBookingApp",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp.csproj",
               "RelativeDocumentMoniker": "HotelBookingApp\\HotelBookingApp.csproj",
