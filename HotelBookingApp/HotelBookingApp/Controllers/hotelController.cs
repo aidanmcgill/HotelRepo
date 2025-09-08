@@ -5,7 +5,7 @@ namespace HotelBookingApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class hotelController : ControllerBase
+    public class HotelController : ControllerBase
     {
     }
 }
