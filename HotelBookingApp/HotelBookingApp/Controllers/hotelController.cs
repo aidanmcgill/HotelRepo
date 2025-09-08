@@ -1,4 +1,5 @@
 ﻿using HotelBookingApp.Data;
+using HotelBookingApp.Model.Domain;
 using HotelBookingApp.Model.DTOs;
 using HotelBookingApp.Repositories;
 using Microsoft.AspNetCore.Http;
@@ -65,6 +66,35 @@ namespace HotelBookingApp.Controllers
             };
 
             return Ok(hotelDto);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> CreateBooking([FromBody] CreateBookingDto createBookingDto)
+        {
+            var BookingDomain = new Booking
+            {
+                Hotel = createBookingDto.Hotel,
+                RoomId = createBookingDto.RoomId,
+                CheckInDate = createBookingDto.CheckInDate,
+                CheckOutDate = createBookingDto.CheckOutDate,
+                NumberOfGuests = createBookingDto.NumberOfGuests,
+                NameOnBooking = createBookingDto.NameOnBooking,
+            };
+
+            BookingDomain = await hotelRepository.CreateBookingAsync(BookingDomain);
+
+            var BookingDto = new BookingDto
+            {
+                Hotel = BookingDomain.Hotel,
+                RoomId = BookingDomain.RoomId,
+                CheckInDate = BookingDomain.CheckInDate,
+                CheckOutDate = BookingDomain.CheckOutDate,
+                NameOnBooking = BookingDomain.NameOnBooking,
+                NumberOfGuests = BookingDomain.NumberOfGuests,
+            };
+
+            return Ok(BookingDto);
         }
     }
 }

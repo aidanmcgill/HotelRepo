@@ -12,6 +12,13 @@ namespace HotelBookingApp.Repositories
             this.dbContext = dbContext;
         }
 
+        public async Task<Booking> CreateBookingAsync(Booking newBooking)
+        {
+            await dbContext.Bookings.AddAsync(newBooking);
+            await dbContext.SaveChangesAsync();
+            return newBooking;
+        }
+
         public async Task<Booking?> GetBookingAsync(Guid id)
         {
             return await dbContext.Bookings.FirstOrDefaultAsync(x => x.Id == id);

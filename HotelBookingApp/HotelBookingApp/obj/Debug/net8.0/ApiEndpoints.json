@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "CreateBooking",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBookingDto",
+        "Type": "HotelBookingApp.Model.DTOs.CreateBookingDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "GetBooking",
     "RelativePath": "api/Hotel/{id}",
     "HttpMethod": "GET",

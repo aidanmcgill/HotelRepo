@@ -6,5 +6,7 @@ namespace HotelBookingApp.Repositories
     {
         Task<Hotel?> GetHotelAsync(string hotelName);
         Task<Booking?> GetBookingAsync(Guid id);
+
+        Task<Booking> CreateBookingAsync(Booking newBooking);
     }
 }
