@@ -13,6 +13,6 @@ namespace HotelBookingApp.Data
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Booking> Bookings {  get; set; }
 
-        public DbSet<Room> rooms { get; set; } 
+        public DbSet<Room> Rooms { get; set; } 
     }
 }

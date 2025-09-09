@@ -1,4 +1,5 @@
 ﻿using HotelBookingApp.Model.Domain;
+using HotelBookingApp.Model.DTOs;
 
 namespace HotelBookingApp.Repositories
 {
@@ -8,5 +9,9 @@ namespace HotelBookingApp.Repositories
         Task<Booking?> GetBookingAsync(Guid id);
 
         Task<Booking> CreateBookingAsync(Booking newBooking);
+
+        Task<List<Booking>> GetAllRooms(RoomDto room);
+
+        Task<Hotel> CreateHotel(Hotel hotel);
     }
 }

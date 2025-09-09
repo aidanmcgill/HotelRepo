@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "GetBooking",
     "RelativePath": "api/Hotel/{id}",
     "HttpMethod": "GET",
@@ -33,7 +43,7 @@
   },
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
-    "Method": "GetHotels",
+    "Method": "GetHotel",
     "RelativePath": "api/Hotel/{name}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -42,6 +52,22 @@
       {
         "Name": "name",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelDevController",
+    "Method": "CreateHotel",
+    "RelativePath": "api/HotelDev",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createHotelDto",
+        "Type": "HotelBookingApp.Model.DTOs.CreateHotelDto",
         "IsRequired": true
       }
     ],

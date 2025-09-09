@@ -22,7 +22,7 @@ namespace HotelBookingApp.Controllers
 
         [HttpGet]
         [Route("{name}")]
-        public async Task<IActionResult> GetHotels([FromRoute] string name)
+        public async Task<IActionResult> GetHotel([FromRoute] string name)
         {
             var hotelDomain = await hotelRepository.GetHotelAsync(name);
 
@@ -95,5 +95,23 @@ namespace HotelBookingApp.Controllers
             };
             return CreatedAtAction(nameof(GetBooking), new { id = BookingDomain.Id }, BookingDto);
         }
+
+        
+        [HttpGet]
+        public async Task<IActionResult> GetRooms()
+        {
+            var room = new RoomDto
+            {
+                NumberOfGuests = 2,
+                CheckInDate = new DateOnly(2025,10,1),
+                CheckOutDate = new DateOnly(2025, 10, 4)
+            };
+
+            return Ok();
+        }
+
+        
+        
+        
     }
 }

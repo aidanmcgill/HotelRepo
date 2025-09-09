@@ -79,6 +79,47 @@
             "description": "OK"
           }
         }
+      },
+      "get": {
+        "tags": [
+          "Hotel"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HotelDev": {
+      "post": {
+        "tags": [
+          "HotelDev"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateHotelDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateHotelDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateHotelDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/WeatherForecast": {
@@ -153,6 +194,28 @@
           "nameOnBooking": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateHotelDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "numberOfSingleRooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfDoubleRooms": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberOfDeluxRooms": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
