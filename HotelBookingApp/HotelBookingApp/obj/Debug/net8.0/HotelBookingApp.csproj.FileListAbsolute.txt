@@ -195,3 +195,4 @@ C:\Users\aidan\Projects\HotelBookingApp\HotelBookingApp\HotelBookingApp\bin\Debu
 C:\Users\aidan\Projects\HotelBookingApp\HotelBookingApp\HotelBookingApp\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\aidan\Projects\HotelBookingApp\HotelBookingApp\HotelBookingApp\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\aidan\Projects\HotelBookingApp\HotelBookingApp\HotelBookingApp\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\aidan\Projects\HotelBookingApp\HotelBookingApp\HotelBookingApp\obj\Debug\net8.0\HotelBookingApp.sourcelink.json

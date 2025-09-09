@@ -8,7 +8,7 @@ namespace HotelBookingApp.Repositories
         Task<Hotel?> GetHotelAsync(string hotelName);
         Task<Booking?> GetBookingAsync(Guid id);
 
-        Task<Booking> CreateBookingAsync(Booking newBooking);
+        Task<Booking?> CreateBookingAsync(Booking newBooking);
 
         Task<List<Room>> GetAllRooms(RoomDto room);
 

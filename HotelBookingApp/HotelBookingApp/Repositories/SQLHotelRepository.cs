@@ -32,8 +32,39 @@ namespace HotelBookingApp.Repositories
 
         }
 
-        public async Task<Booking> CreateBookingAsync(Booking newBooking)
+        public async Task<Booking?> CreateBookingAsync(Booking newBooking)
         {
+            var room = await dbContext.Rooms
+                .FirstOrDefaultAsync(x =>
+                x.Id == newBooking.RoomId &&
+                x.RoomCapacity >= newBooking.NumberOfGuests);
+
+            if (room == null)
+            {
+                return null;
+            }
+
+            var conflictingBooking = await dbContext.Bookings
+                .FirstOrDefaultAsync(x =>
+                    x.RoomId == newBooking.RoomId &&
+                    (
+                        (newBooking.CheckInDate >= x.CheckInDate && newBooking.CheckInDate < x.CheckOutDate) ||
+                        (newBooking.CheckOutDate > x.CheckInDate && newBooking.CheckOutDate <= x.CheckOutDate)
+                    )
+                );
+
+            if (conflictingBooking != null)
+            {
+                return null;
+            }
+            ;
+            if (newBooking.CheckInDate >= newBooking.CheckOutDate)
+            {
+                return null;
+            }
+            ;
+
+
             await dbContext.Bookings.AddAsync(newBooking);
             await dbContext.SaveChangesAsync();
             return newBooking;

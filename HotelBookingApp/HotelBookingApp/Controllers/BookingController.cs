@@ -59,7 +59,7 @@ namespace HotelBookingApp.Controllers
             };
 
             BookingDomain = await hotelRepository.CreateBookingAsync(BookingDomain);
-
+            if (BookingDomain == null) { return NotFound(); }
             var BookingDto = new BookingDto
             {
                 Id = BookingDomain.Id,
