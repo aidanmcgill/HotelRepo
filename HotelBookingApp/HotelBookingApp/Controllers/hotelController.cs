@@ -43,10 +43,30 @@ namespace HotelBookingApp.Controllers
            
         }
 
+        [HttpPost]
+        public async Task<IActionResult> CreateHotel([FromBody] CreateHotelDto createHotelDto)
+        {
+            var hotelDomain = new Hotel
+            {
+                Name = createHotelDto.Name,
+                NumberOfDeluxRooms = createHotelDto.NumberOfDeluxRooms,
+                NumberOfDoubleRooms = createHotelDto.NumberOfDoubleRooms,
+                NumberOfSingleRooms = createHotelDto.NumberOfSingleRooms,
+            };
 
+            hotelDomain = await hotelRepository.CreateHotel(hotelDomain);
 
-        
-        
-        
+            var hotelDto = new HotelDto
+            {
+
+                Name = hotelDomain.Name,
+                NumberOfSingleRooms = hotelDomain.NumberOfSingleRooms,
+                NumberOfDoubleRooms = hotelDomain.NumberOfDoubleRooms,
+                NumberOfDeluxRooms = hotelDomain.NumberOfDeluxRooms
+
+            };
+            return Ok(hotelDto);
+
+        }
     }
 }

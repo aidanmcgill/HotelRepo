@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\controllers\\hoteldevcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\controllers\\hoteldevcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\model\\domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\model\\domain\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\controllers\\hotelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\model\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\model\\dtos\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\model\\domain\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\model\\domain\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\model\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|solutionrelative:hotelbookingapp\\model\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0DEDB3C6-F3E3-48A3-9B25-BA8F426F612C}|HotelBookingApp\\HotelBookingApp.csproj|c:\\users\\aidan\\projects\\hotelbookingapp\\hotelbookingapp\\hotelbookingapp\\repositories\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,33 +50,98 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingDto.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\DTOs\\BookingDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Model\\DTOs\\BookingDto.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\DTOs\\BookingDto.cs",
+              "RelativeToolTip": "HotelBookingApp\\Model\\DTOs\\BookingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:17:28.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "RelativeToolTip": "HotelBookingApp\\Model\\Domain\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:16:35.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Hotel.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Model\\Domain\\Hotel.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\Domain\\Hotel.cs",
+              "RelativeToolTip": "HotelBookingApp\\Model\\Domain\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:16:35.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\DTOs\\RoomDto.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Model\\DTOs\\RoomDto.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Model\\DTOs\\RoomDto.cs",
+              "RelativeToolTip": "HotelBookingApp\\Model\\DTOs\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T04:16:31.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\BookingController.cs",
               "RelativeToolTip": "HotelBookingApp\\Controllers\\BookingController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T04:05:14.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\RoomController.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\RoomController.cs",
               "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\RoomController.cs",
               "RelativeToolTip": "HotelBookingApp\\Controllers\\RoomController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAwA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T04:04:18.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "HotelController.cs",
+              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
+              "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\HotelController.cs",
+              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
+              "RelativeToolTip": "HotelBookingApp\\Controllers\\HotelController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T01:57:17.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IHotelRepository.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\IHotelRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Repositories\\IHotelRepository.cs",
@@ -77,20 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HotelController.cs",
-              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
-              "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\HotelController.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelController.cs",
-              "RelativeToolTip": "HotelBookingApp\\Controllers\\HotelController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T01:57:17.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "SQLHotelRepository.cs",
               "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
               "RelativeDocumentMoniker": "HotelBookingApp\\Repositories\\SQLHotelRepository.cs",
@@ -99,19 +163,6 @@
               "ViewState": "AgIAAEUAAAAAAAAAAAAgwF0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T01:33:39.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HotelDevController.cs",
-              "DocumentMoniker": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelDevController.cs",
-              "RelativeDocumentMoniker": "HotelBookingApp\\Controllers\\HotelDevController.cs",
-              "ToolTip": "C:\\Users\\aidan\\Projects\\HotelBookingApp\\HotelBookingApp\\HotelBookingApp\\Controllers\\HotelDevController.cs",
-              "RelativeToolTip": "HotelBookingApp\\Controllers\\HotelDevController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T01:33:34.46Z",
               "EditorCaption": ""
             }
           ]

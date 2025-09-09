@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "CreateHotel",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createHotelDto",
+        "Type": "HotelBookingApp.Model.DTOs.CreateHotelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "GetHotel",
     "RelativePath": "api/Hotel/{name}",
     "HttpMethod": "GET",
@@ -42,22 +58,6 @@
       {
         "Name": "name",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelBookingApp.Controllers.HotelDevController",
-    "Method": "CreateHotel",
-    "RelativePath": "api/HotelDev",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "createHotelDto",
-        "Type": "HotelBookingApp.Model.DTOs.CreateHotelDto",
         "IsRequired": true
       }
     ],
@@ -88,26 +88,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelBookingApp.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HotelBookingApp.WeatherForecast, HotelBookingApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]

@@ -62,6 +62,7 @@ namespace HotelBookingApp.Controllers
 
             var BookingDto = new BookingDto
             {
+                Id = BookingDomain.Id,
                 Hotel = BookingDomain.Hotel,
                 RoomId = BookingDomain.RoomId,
                 CheckInDate = BookingDomain.CheckInDate,
