@@ -13,5 +13,7 @@ namespace HotelBookingApp.Repositories
         Task<List<Room>> GetAllRooms(RoomDto room);
 
         Task<Hotel> CreateHotel(Hotel hotel);
+
+        Task<bool> CleareHotel();
     }
 }

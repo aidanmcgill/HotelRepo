@@ -15,6 +15,23 @@ namespace HotelBookingApp.Repositories
             this.dbContext = dbContext;
         }
 
+        public async Task<bool> CleareHotel()
+        {
+            var booking = await dbContext.Bookings.ToListAsync();
+            dbContext.Bookings.RemoveRange(booking);
+
+            var rooms = await dbContext.Rooms.ToListAsync();
+            dbContext.Rooms.RemoveRange(rooms);
+
+            var hotels = await dbContext.Hotels.ToListAsync();
+            dbContext.Hotels.RemoveRange(hotels);
+
+            await dbContext.SaveChangesAsync();
+            return true;
+
+
+        }
+
         public async Task<Booking> CreateBookingAsync(Booking newBooking)
         {
             await dbContext.Bookings.AddAsync(newBooking);
