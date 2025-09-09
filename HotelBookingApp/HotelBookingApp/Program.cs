@@ -10,11 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<HotelBookingDbContext>(options => options.UseSqlServer(
-    builder.Configuration.GetConnectionString("HotelBookingConnectionString")
-    )
-);
 
+builder.Services.AddDbContext<HotelBookingDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("HotelBookingConnectionString")));
 
 builder.Services.AddScoped<IHotelRepository, SQLHotelRepository>();
 var app = builder.Build();

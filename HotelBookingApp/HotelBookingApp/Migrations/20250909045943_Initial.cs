@@ -15,13 +15,13 @@ namespace HotelBookingApp.Migrations
                 name: "Bookings",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Hotel = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RoomId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    CheckInDate = table.Column<DateOnly>(type: "date", nullable: false),
-                    CheckOutDate = table.Column<DateOnly>(type: "date", nullable: false),
-                    NumberOfGuests = table.Column<int>(type: "int", nullable: false),
-                    NameOnBooking = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Hotel = table.Column<string>(type: "TEXT", nullable: false),
+                    RoomId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    CheckInDate = table.Column<DateOnly>(type: "TEXT", nullable: false),
+                    CheckOutDate = table.Column<DateOnly>(type: "TEXT", nullable: false),
+                    NumberOfGuests = table.Column<int>(type: "INTEGER", nullable: false),
+                    NameOnBooking = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -32,11 +32,11 @@ namespace HotelBookingApp.Migrations
                 name: "Hotels",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    NumberOfSingleRooms = table.Column<int>(type: "int", nullable: false),
-                    NumberOfDoubleRooms = table.Column<int>(type: "int", nullable: false),
-                    NumberOfDeluxRooms = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    Name = table.Column<string>(type: "TEXT", nullable: false),
+                    NumberOfSingleRooms = table.Column<int>(type: "INTEGER", nullable: false),
+                    NumberOfDoubleRooms = table.Column<int>(type: "INTEGER", nullable: false),
+                    NumberOfDeluxRooms = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -47,10 +47,10 @@ namespace HotelBookingApp.Migrations
                 name: "Rooms",
                 columns: table => new
                 {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    HotelId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RoomType = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    RoomCapacity = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<Guid>(type: "TEXT", nullable: false),
+                    HotelId = table.Column<Guid>(type: "TEXT", nullable: false),
+                    RoomType = table.Column<string>(type: "TEXT", nullable: false),
+                    RoomCapacity = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {
