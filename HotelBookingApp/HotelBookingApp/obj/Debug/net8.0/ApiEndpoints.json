@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "ContainingType": "HotelBookingApp.Controllers.BookingController",
     "Method": "CreateBooking",
-    "RelativePath": "api/Hotel",
+    "RelativePath": "api/Booking",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -16,19 +16,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HotelBookingApp.Controllers.HotelController",
-    "Method": "GetRooms",
-    "RelativePath": "api/Hotel",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "ContainingType": "HotelBookingApp.Controllers.BookingController",
     "Method": "GetBooking",
-    "RelativePath": "api/Hotel/{id}",
+    "RelativePath": "api/Booking/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -39,6 +29,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.HotelController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Hotel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

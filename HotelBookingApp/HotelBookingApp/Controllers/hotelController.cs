@@ -44,57 +44,6 @@ namespace HotelBookingApp.Controllers
         }
 
 
-        [HttpGet]
-        [Route("{id:Guid}")]
-        public async Task<IActionResult> GetBooking([FromRoute] Guid id)
-        {
-            var bookingDomain = await hotelRepository.GetBookingAsync(id);
-
-            if (bookingDomain == null)
-            {
-                return NotFound();
-            }
-
-            var hotelDto = new BookingDto
-            {
-                Hotel = bookingDomain.Hotel,
-                CheckInDate = bookingDomain.CheckInDate,
-                CheckOutDate = bookingDomain.CheckOutDate,
-                RoomId = bookingDomain.RoomId,
-                NumberOfGuests = bookingDomain.NumberOfGuests,
-                NameOnBooking = bookingDomain.NameOnBooking,
-            };
-
-            return Ok(hotelDto);
-        }
-
-
-        [HttpPost]
-        public async Task<IActionResult> CreateBooking([FromBody] CreateBookingDto createBookingDto)
-        {
-            var BookingDomain = new Booking
-            {
-                Hotel = createBookingDto.Hotel,
-                RoomId = createBookingDto.RoomId,
-                CheckInDate = createBookingDto.CheckInDate,
-                CheckOutDate = createBookingDto.CheckOutDate,
-                NumberOfGuests = createBookingDto.NumberOfGuests,
-                NameOnBooking = createBookingDto.NameOnBooking,
-            };
-
-            BookingDomain = await hotelRepository.CreateBookingAsync(BookingDomain);
-
-            var BookingDto = new BookingDto
-            {
-                Hotel = BookingDomain.Hotel,
-                RoomId = BookingDomain.RoomId,
-                CheckInDate = BookingDomain.CheckInDate,
-                CheckOutDate = BookingDomain.CheckOutDate,
-                NameOnBooking = BookingDomain.NameOnBooking,
-                NumberOfGuests = BookingDomain.NumberOfGuests,
-            };
-            return CreatedAtAction(nameof(GetBooking), new { id = BookingDomain.Id }, BookingDto);
-        }
 
         
         [HttpGet]

@@ -5,32 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Hotel/{name}": {
+    "/api/Booking/{id}": {
       "get": {
         "tags": [
-          "Hotel"
-        ],
-        "parameters": [
-          {
-            "name": "name",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Hotel/{id}": {
-      "get": {
-        "tags": [
-          "Hotel"
+          "Booking"
         ],
         "parameters": [
           {
@@ -50,10 +28,10 @@
         }
       }
     },
-    "/api/Hotel": {
+    "/api/Booking": {
       "post": {
         "tags": [
-          "Hotel"
+          "Booking"
         ],
         "requestBody": {
           "content": {
@@ -79,7 +57,31 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/api/Hotel/{name}": {
+      "get": {
+        "tags": [
+          "Hotel"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hotel": {
       "get": {
         "tags": [
           "Hotel"
