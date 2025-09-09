@@ -2,6 +2,8 @@
 using HotelBookingApp.Model.Domain;
 using HotelBookingApp.Model.DTOs;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace HotelBookingApp.Repositories
 {
@@ -22,7 +24,7 @@ namespace HotelBookingApp.Repositories
 
         public async Task<Hotel> CreateHotel(Hotel hotel)
         {
-            
+
             await dbContext.Hotels.AddAsync(hotel);
             Guid guid = hotel.Id;
 
@@ -67,9 +69,29 @@ namespace HotelBookingApp.Repositories
             return hotel;
         }
 
-        public Task<List<Booking>> GetAllRooms(RoomDto room)
+        public async Task<List<Room>> GetAllRooms(RoomDto newRoom)
         {
-            throw new NotImplementedException();
+            var bookings = await dbContext.Bookings.Where(x =>
+                (newRoom.CheckInDate >= x.CheckInDate && newRoom.CheckInDate < x.CheckOutDate) ||
+                (newRoom.CheckOutDate > x.CheckInDate && newRoom.CheckOutDate <= x.CheckOutDate)
+            ).ToListAsync();
+
+            List<Guid> BookingRoomIds = bookings
+                .Select(b => b.RoomId)
+                .Distinct()
+                .ToList();
+            List<Room> roooms = await dbContext.Rooms.ToListAsync();
+            List<Room> avalableRooms = new List<Room>();
+
+            foreach(Room room in roooms)
+            {
+                if(!BookingRoomIds.Contains(room.Id) && newRoom.NumberOfGuests <= room.RoomCapacity)
+                {
+                    avalableRooms.Add(room);
+                }
+            }
+
+            return avalableRooms;
         }
 
         public async Task<Booking?> GetBookingAsync(Guid id)
@@ -81,5 +103,7 @@ namespace HotelBookingApp.Repositories
         {
             return await dbContext.Hotels.FirstOrDefaultAsync(x => x.Name == name);
         }
+
+
     }
 }

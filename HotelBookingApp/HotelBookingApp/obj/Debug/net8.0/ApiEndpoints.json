@@ -33,16 +33,6 @@
   },
   {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
-    "Method": "GetRooms",
-    "RelativePath": "api/Hotel",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "GetHotel",
     "RelativePath": "api/Hotel/{name}",
     "HttpMethod": "GET",
@@ -68,6 +58,32 @@
       {
         "Name": "createHotelDto",
         "Type": "HotelBookingApp.Model.DTOs.CreateHotelDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelBookingApp.Controllers.RoomController",
+    "Method": "GetRooms",
+    "RelativePath": "api/Room/{NumberOfGuests}/{CheckInDate}/{CheckOutDate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumberOfGuests",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CheckInDate",
+        "Type": "System.DateOnly",
+        "IsRequired": true
+      },
+      {
+        "Name": "CheckOutDate",
+        "Type": "System.DateOnly",
         "IsRequired": true
       }
     ],

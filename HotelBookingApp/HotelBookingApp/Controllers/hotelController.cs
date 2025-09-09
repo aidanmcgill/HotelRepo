@@ -46,20 +46,6 @@ namespace HotelBookingApp.Controllers
 
 
         
-        [HttpGet]
-        public async Task<IActionResult> GetRooms()
-        {
-            var room = new RoomDto
-            {
-                NumberOfGuests = 2,
-                CheckInDate = new DateOnly(2025,10,1),
-                CheckOutDate = new DateOnly(2025, 10, 4)
-            };
-
-            return Ok();
-        }
-
-        
         
         
     }
