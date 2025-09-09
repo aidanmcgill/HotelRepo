@@ -59,6 +59,18 @@
         }
       }
     },
+    "/api/Clear": {
+      "get": {
+        "tags": [
+          "Clear"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Hotel/{name}": {
       "get": {
         "tags": [

@@ -32,6 +32,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HotelBookingApp.Controllers.ClearController",
+    "Method": "GetBooking",
+    "RelativePath": "api/Clear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HotelBookingApp.Controllers.HotelController",
     "Method": "CreateHotel",
     "RelativePath": "api/Hotel",

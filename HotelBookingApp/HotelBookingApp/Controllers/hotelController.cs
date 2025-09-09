@@ -46,6 +46,11 @@ namespace HotelBookingApp.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateHotel([FromBody] CreateHotelDto createHotelDto)
         {
+            int numRooms = createHotelDto.NumberOfDeluxRooms + createHotelDto.NumberOfDoubleRooms + createHotelDto.NumberOfSingleRooms;
+            if ( !numRooms.Equals(6))
+            {
+                return NotFound();
+            }
             var hotelDomain = new Hotel
             {
                 Name = createHotelDto.Name,
