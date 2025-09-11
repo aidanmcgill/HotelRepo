@@ -22,7 +22,7 @@ POST /booking
 
 {
   "hotel": "Grand Hotel",
-  "roomId": "room-123",
+  "roomId": "26f44660-1bd5-4665-bdf7-fd1a0b259774",
   "checkInDate": "2024-01-15",
   "checkOutDate": "2024-01-20",
   "numberOfGuests": 2,
